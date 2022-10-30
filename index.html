@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Grotesk&display=swap" rel="stylesheet">
+    <script src="ex-rate.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="result">
+                <span></span>
+                <h1></h1>
+            </div>
+        </div>
+        <div class="amount-and-currency">
+            <div class="filled">
+                <input type="text" name="amount" id="amount">
+                <select name="currencies" id="currencies"></select>
+            </div>
+            
+            <div class="wanted">
+                <input type="text" name="amount" id="converted" disabled>
+                <select name="currencies" id="currencies"></select>
+            </div>
+        </div>
+        <button>CONVERT</button>
+    </div>
+</body>
+</html>
